@@ -1,0 +1,17 @@
+@use "assets/scss/global/_vars";
+
+body {
+  margin: 0;
+  background-color: vars.$primary-color;
+}
+
+.btn-primary {
+  background-color: red;
+  border-radius: 30px;
+}
+
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
